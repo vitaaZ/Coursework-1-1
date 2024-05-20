@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link href="reg.css" rel="stylesheet" media="all">
+    <link href="adaptiv/adaptiv.css" rel="stylesheet" media="all">
+    <link href="adaptiv/adaptReg.css" rel="stylesheet" media="all">
+    <script src="reg.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="footer.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="headernav">
+        <p class="mainLogoOfTheShop"><a href="index.html"><img src="zay_reg.svg"></a></p>
+        <a href="reg.html"><img class="userAccount" src="картинки/darckuser.png" data-alt-src="картинки/darckuser.png"></a>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="flor_catalog.html">Букеты</a> 
+                </li>
+                <li class="dropdown">
+                    <a href="decor.html">Декорирование</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <form class="form">
+        <table>
+            <caption>
+                <p class="registration">Регистрация</p>
+                <p class="pleaseEnter">Пожалуйста, заполните информацию снизу:</p>
+            </caption>
+            <tr>
+                <td><input class="nameInput" type="text" placeholder="Имя" id="Name"></td>
+            </tr>
+            <tr>
+                <td><input class="secondNameInput" type="text" placeholder="Фамилия" id="secondName"></td>
+            </tr>
+            <tr>
+                <td><input class="emailInput" type="text" placeholder="Email" id="Email"></td>
+            </tr>
+            <tr>
+                <td><input class="passwordInput" type="password" placeholder="Пароль" id="Password"></td>
+            </tr>
+        </table>
+    </form>
+    <input class="bottonOfCreating" type="submit" value="Создать мой аккаунт" onclick="validateForm()">
+    <a href="index.html"><button class="goHome">Создать мой аккаун</button></a>
+    <div class="footer">
+      
+    </div>
+</body>
+</html>

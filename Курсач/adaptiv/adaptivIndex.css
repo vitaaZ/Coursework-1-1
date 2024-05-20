@@ -1,0 +1,279 @@
+@media only screen and (max-width: 855px) and (min-width: 820px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: 140vw;
+    }
+    body .header{
+        height: 103vh; 
+    }
+    
+    .mainLogoOfTheShop {
+        font-size: 9vh;
+        padding: 10%;
+        margin-bottom: -10%;
+    }
+    .userAccount {
+        width: 40px;
+        top: 110px;
+        right: 80px;
+    }
+    .dropdown {
+        margin-left: 65px;
+        font-size: 3.5vh;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .headernav:hover {
+        height: 22vh;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255); 
+    }
+    
+    .headernav:hover li a, .headernav:hover .mainLogoOfTheShop a {
+        color: rgb(255, 255, 255);
+    }
+    li a:visited {
+        color: white;
+    }
+    
+    
+    .headernav:hover .shoppingBag {
+        content: url('картинки/whiteshoppingbag.png');
+    }
+    .image-wrapper img {
+        width: 40vh; 
+        height: auto;
+        transition: none;
+    }
+    .imageCapBut {
+        display: none;
+    }
+    .image-caption {
+        bottom: 14vh; 
+        left: 50%; 
+        font-size: 3.5vh;
+    }
+    
+    .infAboutShop {
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        margin-left: 8vw;
+        width: 87vw;
+    }
+    .infAboutShop p {
+        text-align: center;
+        font-size: 3.3vh;
+    }
+    .flowerStic1 {
+        display: none;
+    }
+    .flowerStic2 {
+        position: absolute;
+        opacity: 0.8;
+        left: -15vh;
+        top: 120vh;
+        width: 30vh;
+        height: 70vh;
+        z-index: -1;
+    }
+    .footer {
+        background-color: #09090976;
+        width: 98%;
+        padding: 1px 10px 1px 12px;
+        font-size: 2.3vh;
+        text-align: center;
+    }
+    .hiddenText {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 414px) and (min-width: 400px) {
+    body .header{
+        height: 75vh; 
+    }
+    .headernav:hover {
+        height: 22vh;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255); 
+    }
+    
+    .headernav:hover li a, .headernav:hover .mainLogoOfTheShop a {
+        color: rgb(255, 255, 255);
+    }
+    li a:visited {
+        color: white;
+    }
+    
+    .mainLogoOfTheShop {
+        font-size: 9vh;
+        padding: 10%;
+        margin-bottom: -10%;
+    }
+    .userAccount {
+        width: 29px;
+        top: 70px;
+        right: 30px;
+    }
+    .dropdown {
+        margin-left: 12px;
+        font-size: 2.7vh;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .image-wrapper img {
+        width: 40vh; 
+        height: auto;
+        transition: none;
+    }
+    .image-caption {
+        bottom: 14vh; 
+        left: 50%; 
+        font-size: 3.1vh;
+    }
+    
+    .infAboutShop {
+        margin-top: 7vh;
+        margin-bottom: -2vh;
+        margin-left: 5vw;
+        width: 91vw;
+    }
+    .infAboutShop p {
+        text-align: center;
+        font-size: 2.5vh;
+    }
+    .flowerStic2 {
+        position: absolute;
+        opacity: 0.8;
+        left: -15vh;
+        top: 80vh;
+        width: 30vh;
+        height: 70vh;
+        z-index: -1;
+    }
+    .footer {
+        background-color: #09090976;
+        width: 92%;
+        padding: 1px 10px 1px 12px;
+        font-size: 2vh;
+        text-align: center;
+    }
+    .hiddenText {
+        display: none;
+    }
+
+    .flowerStic1 {
+        display: none;
+    }
+    .imageCapBut {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1280px) and (min-width: 1180px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        height: 110vw;
+    }
+    body .header{
+        height: 103vh; 
+    }
+    
+    .mainLogoOfTheShop {
+        font-size: 11vh;
+        padding: 10%;
+        margin-bottom: -10%;
+    }
+    .userAccount {
+        width: 40px;
+        top: 130px;
+        right: 80px;
+    }
+    .dropdown {
+        margin-left: 65px;
+        font-size: 3.5vh;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .headernav:hover {
+        height: 22vh;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255); 
+    }
+    
+    .headernav:hover li a, .headernav:hover .mainLogoOfTheShop a {
+        color: rgb(255, 255, 255);
+    }
+    li a:visited {
+        color: white;
+    }
+    
+    
+    .headernav:hover .shoppingBag {
+        content: url('картинки/whiteshoppingbag.png');
+    }
+    .image-wrapper img {
+        height: auto;
+        transition: none;
+    }
+    .imageCapBut {
+        letter-spacing: 0.4vh;
+        padding: 2vh;
+        border: 0.3vh solid white;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 35vh; 
+        left: 50%; 
+        transform: translateX(-50%); /* Центрирование по горизонтали */
+        color: white;
+        font-size: 4vh;
+        overflow: hidden;
+    }
+    .image-caption {
+        position: absolute;
+        bottom: 45vh; 
+        left: 50%; 
+        transform: translateX(-50%); /* Центрирование по горизонтали */
+        color: white;
+        font-size: 6vh;
+    }
+    
+    .infAboutShop {
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        margin-left: 8vw;
+        width: 87vw;
+    }
+    .infAboutShop p {
+        text-align: center;
+        font-size: 4vh;
+    }
+    .flowerStic1 {
+        display: none;
+    }
+    .flowerStic2 {
+        position: absolute;
+        opacity: 0.6;
+        left: -10vh;
+        top: 110vh;
+        width: 30vh;
+        height: 70vh;
+        z-index: -1;
+    }
+    .footer {
+        background-color: #09090976;
+        width: 98%;
+        padding: 1px 10px 1px 12px;
+        font-size: 2.8vh;
+        text-align: center;
+    }
+    .hiddenText {
+        display: block;
+    }
+
+}

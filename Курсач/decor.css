@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #262523;
+    margin: 0;
+}
+body .header{
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    background-position: top;
+    left: -1.4%;
+    width: 102%;
+}
+.mainLogoOfTheShop {
+    font-size: 7vh;
+    padding: 3%;
+    margin-top: -2.7vh;
+    font-family: FoglihtenNo06;
+    margin-bottom: -3%;
+}
+.mainLogoOfTheShop a {
+    text-decoration: none;
+    color: black;
+}
+.mainLogoOfTheShop a:visited {
+    color: black;
+}
+.userAccount {
+    width: 2.8vh;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+}
+.shoppingBag {
+    width: 2.8vh;
+    position: absolute;
+    top: 8%;
+    right: 5%; 
+}
+
+nav ul {
+    font-family: Cormorant Garamond;
+    list-style-type: none; 
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+.headernav {
+    height: 22vh;
+    background-color: rgba(255, 255, 255, 0.877);
+    color: black; 
+}
+.dropdown {
+    margin-right: 15%;
+    font-size: 3vh;
+    position: relative;
+    display: inline-block;
+}
+li a:visited {
+    color: black;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.img1,
+.img2 {
+    margin-top: 20px;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.aboutD {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    position: relative;
+    width: 90vw;
+}
+.emailUs p , .aboutD p {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 3.3vh;
+    color: white;
+}
+.smallImg {
+    width: 29%;
+}
+ 
+.emailUs {
+    padding: 8vh;
+}
+.emailUs input[type="email"] {
+    width: 75vh;
+    height: 3vh;
+    opacity: 0.8;
+    border: 0.3vh solid white;
+    background-color:#ffffff00;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: none; 
+}
+input[type="email"]:not(:placeholder-shown) {
+    text-transform: none;
+}
+input[type="submit"] {
+    border-color: #f1f1f100;
+    height: 4vh;
+    width: 26vh;
+    border-radius: 0;
+    font-family: FoglihtenNo06;
+    letter-spacing: 1vh;
+    margin-top: 2vh;
+    background-color: #f1f1f1;
+}
+input[type="submit"]:hover {
+    background-color: #5c7073;
+}
+
+.footer p {
+    color: #ffffff;
+}
+.footer {
+    background-color: #09090976;
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+}

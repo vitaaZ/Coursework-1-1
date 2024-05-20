@@ -1,0 +1,178 @@
+@media only screen and (max-width: 855px) {
+    .mainLogoOfTheShop {
+    font-size: 9vh;
+    padding: 5%;
+    margin-bottom: -10%;
+}
+    .imgContainer {
+        gap: 2px;
+    }
+    .img1,
+    .img2 {
+        margin-top: 0px;
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    
+    .aboutD {
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        width: 95vw;
+    }
+    .emailUs p , .aboutD p {
+        font-size: 2.3vh;
+    }
+    .hiddenText {
+        display: none;
+    }
+    .smallImg {
+        width: 44%;
+        margin-left: 2px;
+    }
+    #hiddenVideo {
+        display: none;
+    }
+     
+    .emailUs {
+        padding: 4vh;
+    }
+    .emailUs input[type="email"] {
+        width: 45vh;
+        height: 5vh;
+        opacity: 0.8;
+        border: 0.3vh solid white;
+        background-color:#ffffff00;
+        color: white;
+        font-size: 23px;
+        text-transform: uppercase;
+        padding: 10px;
+        outline: none; 
+    }
+    input[type="submit"] {
+        font-size: 20px;
+        border-color: #f1f1f100;
+        height: 4vh;
+        width: 21vh;
+        letter-spacing: 0.5vh;
+    }
+    input[type="email"]:not(:placeholder-shown) {
+        text-transform: none;
+    }
+    input[type="submit"]:hover {
+        background-color: #f1f1f1;
+    }
+    
+}
+@media only screen and (max-width: 414px) and (min-width: 400px) {
+    .mainLogoOfTheShop {
+    font-size: 9vh;
+    padding: 5%;
+    margin-bottom: -10%;
+}
+    .emailUs {
+        padding: 4vh;
+    }
+    .emailUs input[type="email"] {
+        width: 30vh;
+        height: 4vh;
+        opacity: 0.8;
+        border: 0.2vh solid white;
+        background-color:#ffffff00;
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 10px;
+        outline: none; 
+    }
+    input[type="submit"] {
+        font-size: 17px;
+        border-color: #f1f1f100;
+        height: 3vh;
+        width: 19vh;
+        letter-spacing: 0.5vh;
+    }
+    input[type="email"]:not(:placeholder-shown) {
+        text-transform: none;
+    }
+    input[type="submit"]:hover {
+        background-color: #f1f1f1;
+    }
+    .footer {
+        font-size: 17px;
+    }
+    
+}
+@media only screen and (max-width: 1280px) and (min-width: 1180px) {
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 9px;
+    }
+    .img1,
+    .img2 {
+        margin-top: 20px;
+        width: 48%;
+        margin-bottom: 6px;
+    }
+    
+    .aboutD {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        position: relative;
+        width: 90vw;
+    }
+    .emailUs p , .aboutD p {
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 3.6vh;
+        color: white;
+    }
+    .smallImg {
+        width: 31%;
+    }
+     
+    .emailUs {
+        padding: 8vh;
+    }
+    .emailUs input[type="email"] {
+        font-size: 1.4em;
+        width: 90vh;
+        height: 5vh;
+        opacity: 0.8;
+        border: 0.4vh solid white;
+        background-color:#ffffff00;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        outline: none; 
+    }
+    input[type="email"]:not(:placeholder-shown) {
+        text-transform: none;
+    }
+    input[type="submit"] {
+        border-color: #f1f1f100;
+        height: 5vh;
+        width: 40vh;
+        font-size: 1.8em;
+        border-radius: 0;
+        font-family: FoglihtenNo06;
+        letter-spacing: 1vh;
+        margin-top: 3vh;
+        background-color: #f1f1f1;
+    }
+    input[type="submit"]:hover {
+        background-color: #5c7073;
+    }
+    
+    .footer p {
+        color: #ffffff;
+    }
+    .footer {
+        background-color: #09090976;
+        width: 100%;
+        padding: 5px 20px 5px 20px;
+    }
+    
+}

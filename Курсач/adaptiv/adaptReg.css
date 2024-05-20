@@ -1,0 +1,182 @@
+@media only screen and (max-width: 855px) {
+        .mainLogoOfTheShop {
+            padding: 7%;
+            margin-bottom: -9.5%;
+        }
+    body .header{
+        left: -2%;
+        width: 102%;
+        height: 120vh; 
+    }
+    .form {
+        height: 60vh;
+    }
+    .registration {
+        font-size: 4.2vh;
+        letter-spacing: 1vh;
+    }
+    .pleaseEnter {
+        margin-top: -2vh;
+        width: 70vh;
+        font-size: 2.6vh;
+        letter-spacing: 0.5vh;
+    }
+    input[type="text"], input[type="password"] {
+        width: 56vh;
+        height: 4vh;
+        font-size: 23px;
+        opacity: 0.8;
+        border: 0.2vh solid white;
+        padding: 12px;
+        outline: none; 
+        margin-top: 8px;
+    }
+    input[type="text"]:not(:placeholder-shown),
+    input[type="password"]:not(:placeholder-shown) {
+        text-transform: none;
+    }
+    button {
+        border-color: #f1f1f100;
+        width: 35vh;
+        letter-spacing: 0.5vh;
+        font-family: FoglihtenNo06;
+        display: block;
+        margin: 9px auto;
+        font-size: 20px;
+        border-color: #f1f1f100;
+        height: 4.7vh;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    input[type="submit"] {
+        display: none;
+    }
+    
+    .footer {
+        display: block;
+        margin-top: 20vh;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 414px) and (min-width: 400px) {
+    .mainLogoOfTheShop {
+        font-size: 9vh;
+        padding: 5%;
+        margin-bottom: -10%;
+    }
+body .header{
+    left: -2%;
+    width: 102%;
+    height: 135vh; 
+}
+.form {
+    height: 67vh;
+}
+.registration {
+    font-size: 3.2vh;
+    letter-spacing: 1vh;
+}
+.pleaseEnter {
+    margin-top: -1vh;
+    width: 52vh;
+    font-size: 2.2vh;
+    letter-spacing: 0.5vh;
+}
+input[type="text"], input[type="password"] {
+    width: 36vh;
+    height: 2.6vh;
+    font-size: 15px;
+    opacity: 0.8;
+    border: 0.2vh solid white;
+    padding: 12px;
+    outline: none; 
+    margin-top: 8px;
+}
+input[type="text"]:not(:placeholder-shown),
+input[type="password"]:not(:placeholder-shown) {
+    text-transform: none;
+}
+button {
+    border-color: #f1f1f100;
+    width: 32vh;
+    letter-spacing: 0.5vh;
+    display: block;
+    margin: -20px auto;
+    font-size: 17px;
+    border-color: #f1f1f100;
+    height: 4.7vh;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+input[type="submit"] {
+    display: none;
+}
+
+.footer {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1280px) and (min-width: 1180px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .registration {
+        font-size: 3em;
+        font-family: FoglihtenNo06;
+        letter-spacing: 1vh;
+    }
+    .pleaseEnter {
+        font-size: 1.7em;
+        width: 90vh;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1vh;
+    }
+    input[type="text"], input[type="password"] {
+        width: 75vh;
+        height: 4vh;
+        opacity: 0.8;
+        border: 0.4vh solid white;
+        background-color:#ffffff00;
+        color: white;
+        text-transform: uppercase;
+        padding: 16px;
+        font-size: 1em;
+        outline: none; 
+    }
+    input[type="text"]:not(:placeholder-shown),
+    input[type="password"]:not(:placeholder-shown) {
+        text-transform: none;
+    }
+    input[type="submit"] {
+        border-color: #f1f1f100;
+        height: 7vh;
+        width: 65vh;
+        border-radius: 0;
+        font-family: FoglihtenNo06;
+        letter-spacing: 1vh;
+    }
+    button {
+        display: none;
+    }
+    
+    .footer {
+        display: none;
+    }
+    
+}
+

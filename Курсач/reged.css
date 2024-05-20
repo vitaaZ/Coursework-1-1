@@ -1,0 +1,37 @@
+#greeting {
+    font-size: 20px;
+    margin: -35% 20%;
+    width: 60%;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+#greetingH {
+    text-transform: uppercase;
+}
+
+#greeting a {
+    color: black;
+    text-decoration: none;
+}
+#greeting a:visited {
+    color: black;
+    text-decoration: none;
+}
+.goToMain  {
+    border-color: #f1f1f100;
+    height: 6vh;
+    width: 45vh;
+    border-radius: 0;
+    letter-spacing: 1vh;
+    margin: 6vh auto;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    line-height: 6vh;
+}
+.goToMain:hover {
+    background-color: #5c7073;
+    color: white;
+}

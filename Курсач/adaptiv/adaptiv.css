@@ -1,0 +1,70 @@
+@media only screen and (max-width: 855px) {
+
+    .dropdown {
+        margin-left: 12%;
+        margin-top: 50px;
+        font-size: 3vh;
+        position: relative;
+        display: inline-block;
+    }
+    .userAccount {
+        width: 40px;
+        top: 90px;
+        right: 50px;
+    }
+    .headernav {
+        background-color: gba(255, 255, 255, 0.887);
+    }
+    .footer {
+        font-size: 1.8em;
+        text-align: center;
+        width: 96%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 400px) {
+    .dropdown {
+        margin-left: 1%;
+        margin-top: 30px;
+        font-size: 2.9vh;
+        position: relative;
+        display: inline-block;
+    }
+    .userAccount {
+        width: 30px;
+        top: 55px;
+        right: 40px;
+    }
+    .headernav {
+        background-color: gba(255, 255, 255, 0.887);
+    }
+    .footer {
+        font-size: 1.8em;
+        text-align: center;
+        width: 91%;
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1180px) {
+    .dropdown {
+        margin-left: 12%;
+        margin-top: 25px;
+        font-size: 4.6vh;
+        position: relative;
+        display: inline-block;
+    }
+    .userAccount {
+        width: 40px;
+        top: 45px;
+        right: 50px;
+    }
+    .headernav {
+        background-color: gba(255, 255, 255, 0.887);
+    }
+    .footer {
+        font-size: 1.8em;
+        text-align: center;
+        width: 96%;
+        margin-left: 10px;
+    }
+}

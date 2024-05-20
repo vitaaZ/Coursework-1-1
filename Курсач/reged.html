@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аккаунт</title>
+    <link href="adaptiv/adaptiv.css" rel="stylesheet" media="all">
+    <link href="adaptiv/adaptivReged.css" rel="stylesheet" media="all">
+    <link href="reg.css" rel="stylesheet" media="all">
+    <link href="reged.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <div class="header">
+        <div class="headernav">
+        <p class="mainLogoOfTheShop"><a href="index.html"><img src="zay_reg.svg"></a></p>
+        <a href="reg.html"><img class="userAccount" src="картинки/darckuser.png"></a>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="flor_catalog.html">Букеты</a> 
+                </li>
+                <li class="dropdown">
+                    <a href="decor.html">Декорирование</a> 
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <div id="greeting">
+        <p id="greetingH"></p>
+        <p class="greetingA">
+            Добро пожаловать в наше уютное цветочное сообщество! 
+            Мы рады приветствовать вас и благодарим за регистрацию в нашем магазине!
+        </p>
+        <a href="index.html"><button class="goToMain">Перейти на главную </button></a>
+    </div>
+    
+    <script>
+        var greetingMessageH = localStorage.getItem('greetingMessageH');
+
+        document.getElementById('greetingH').textContent = greetingMessageH; 
+    </script>
+</body>

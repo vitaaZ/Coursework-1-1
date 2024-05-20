@@ -1,0 +1,122 @@
+@media only screen and (max-width: 855px) {
+    .mainLogoOfTheShop {
+        padding: 10%;
+        margin-bottom: -10%;
+    }
+    .catalog {
+        padding-left: 6vh;
+    }
+    .product {
+        margin-bottom: 5vh;
+    }
+    .product h2 {
+        font-size: 2.5em;
+    }
+    .price {
+        font-size: 2.5em;
+    }
+    
+    .product .addToCartBtn {
+        right: -0.1vh;
+        padding: 16px 25px;
+        font-size: 2.3em;
+    }
+    .addToCartBtn:hover {
+        background-color: #cbcbcb;
+    }
+    .footer {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 414px) and (min-width: 401px) {
+    .mainLogoOfTheShop {
+        padding: 10%;
+        margin-bottom: -10%;
+    }
+    .catalog {
+        padding-left: 6vh;
+    }
+    .product {
+        margin-bottom: -14vh;
+    }
+    .product h2 {
+        font-size: 1.5em;
+    }
+    .price {
+        bottom: 15vh;
+        font-size: 1.5em;
+    }
+    
+    .product .addToCartBtn {
+        bottom: 18.6vh;
+        right: -0.1vh;
+        padding: 10px 13px;
+        font-size: 1.3em;
+    }
+    .addToCartBtn:hover {
+        background-color: #cbcbcb;
+    }
+    .footer {
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1180px) {
+    .product {
+        padding-left: 5px;
+        padding-top: 29px;
+        width: 43vh;
+        height: 60vh;
+        position: relative;
+    }
+    .productImg {
+        overflow: hidden;
+    }
+    .product img {
+        transform-origin: center center;
+        transition: transform 3s ease;
+        width: 100%;
+        /*filter: brightness(60%); */
+    }
+    .product h2 {
+        margin-top: 1vh;
+        font-size: 1.8em;
+    }
+    .price {
+        font-size: 1.8em;
+        position: absolute;
+        bottom: 4vh;
+        left: 0;
+        right: 0;
+        padding-left: 6px;
+        padding-top: 4px;
+        color: rgb(255, 255, 255);
+    }
+    .product:hover img {
+        transform: scale(1.1); 
+    }
+    
+    .product .addToCartBtn {
+        position: absolute;
+        bottom: 70px;
+        right: 20px;
+        background-color: #cbcbcb;
+        color: #000000;
+        border: none;
+        padding: 10px 14px;
+        font-size: 1.6em;
+    }
+    
+    .addToCartBtn:hover {
+        background-color: white;
+    }
+    .footer p {
+        color: #ffffff;
+    }
+    .footer {
+        background-color: #09090976;
+        width: 100%;
+        padding: 5px 20px 5px 20px;
+    }
+    
+    
+}
